@@ -1,0 +1,120 @@
+body{
+background-color: #B2A4FF;
+}
+.container{
+    position: relative;
+    top: 3rem;
+    left: 31rem;
+
+}
+h1{
+    color:#89375F ;
+    font-size: 2.5rem;
+    font-family: cursive;
+}
+.input1{
+    height: 2rem;
+    width: 10rem;
+}
+#selec{
+    height: 2.2rem;
+    width: 10rem;
+}
+#selec2{
+    height: 2.2rem;
+    width: 10rem;
+}
+#valid{
+    position: relative;
+    left: 13rem;
+    font-size: 1.3rem;
+}
+.result{
+    height: 2rem;
+    width: 10rem;
+    
+}
+.btn{
+    height: 2.1rem;
+    width: 10rem;
+    text-align: center;
+    background-color:green ;
+    color: wheat;
+    border-radius: 1rem;
+    position: relative;
+    left: 10rem;
+    border:2rem;
+
+}
+.btn:hover{
+    background-color:#408E91;
+    color: white;
+    border-color: #89375F;
+    border:2rem;
+}
+
+.colour{
+    color:azure;
+    font-size: 1.3rem;
+}
+@media only screen and  (max-width:750px){
+    .container{
+        text-align:center;
+        justify-content: center;
+        
+        position: relative;
+        top: 1rem;
+        left: 40px;
+      display: inline-flex;
+      flex-direction: column;
+    }
+   
+    body{
+        background-color: #408E91;
+    }
+    #valid{
+        font-size: 16px;
+    }
+    h1{
+        color:#FEFF86;
+        font-size: 1.6rem;
+        font-family: cursive;
+    }
+    .input1{
+        height: 2.1rem;
+        width: auto;
+        text-align: center;
+    }
+    #selec{
+        height:2.1rem ;
+        width: auto;
+        text-align: center;
+    }
+    #selec2{
+        height: 2.1rem;
+        width: auto;
+        text-align: center;
+    }
+    .result{
+        height:2.1rem ;
+        width: auto;
+        text-align: center;
+    }
+    .btn{
+        height: 2.1rem;
+        width: 9rem;
+        text-align: center;
+        background-color:green ;
+        color: wheat;
+        border-radius: 1rem;
+        justify-content: center;
+        position: absolute;
+        top: 27rem;
+    }
+    .btn:hover{
+        background-color:#B2A4FF;
+        color: white;
+        border-color: #89375F;
+        border:2rem;
+    }
+}
